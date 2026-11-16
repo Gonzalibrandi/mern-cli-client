@@ -1,0 +1,27 @@
+{
+  "name": "mern-cli-client",
+  "version": "1.0.0",
+  "description": "Cliente REST interactivo en terminal (TUI) para APIs Express con autenticación JWT",
+  "type": "module",
+  "bin": {
+    "mern-cli": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "backend": "npm start --prefix test-backend",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.10.1",
+    "boxen": "^9.0.0",
+    "cli-highlight": "^2.1.11",
+    "cli-table3": "^0.6.5",
+    "jwt-decode": "^4.0.0",
+    "ora": "^10.0.0",
+    "picocolors": "^1.1.1"
+  }
+}

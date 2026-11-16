@@ -1,0 +1,8 @@
+node_modules/
+
+# Material del curso
+*.pdf
+
+# Contienen el JWT y datos de prueba (SPEC RNF-2)
+.mern-cli.json
+.mern-cli-history.json
